@@ -11,8 +11,8 @@ const TodoInput = props => {
   }
   return (
     <div>
-      <button onClick={buttonHandler}>Create</button>
       <input onChange={inputHandler} value={value}></input>
+      <button onClick={buttonHandler}>+</button>
     </div>
   )
 }
