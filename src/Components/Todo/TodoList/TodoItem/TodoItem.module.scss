@@ -1,0 +1,12 @@
+.todo_item {
+  margin: 5px 0;
+  color: #6d5acf;
+  display: flex;
+  justify-content: center;
+  &_body {
+    flex-grow: 2;
+  }
+}
+.selected {
+  text-decoration: line-through;
+}
